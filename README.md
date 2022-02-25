@@ -1,0 +1,2 @@
+# blog
+Minimal blog
