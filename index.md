@@ -2,6 +2,7 @@
 layout: default
 ---
 PUT_SOME_WELCOME_MESSAGE_HERE
+
 <ul>
   {% for post in site.posts %}
     <li>
