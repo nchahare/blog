@@ -3,11 +3,20 @@ layout: default
 ---
 PUT_SOME_WELCOME_MESSAGE_HERE
 
+PUT_SOME_WELCOME_MESSAGE_HERE
+PUT_SOME_WELCOME_MESSAGE_HERE
+PUT_SOME_WELCOME_MESSAGE_HERE
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> 
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
+
+BOTTOM_SOME_WELCOME_MESSAGE_HERE
+BOTTOM_SOME_WELCOME_MESSAGE_HERE
+BOTTOM_SOME_WELCOME_MESSAGE_HERE
+BOTTOM_SOME_WELCOME_MESSAGE_HERE
